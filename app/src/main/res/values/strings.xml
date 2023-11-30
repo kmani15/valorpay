@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">ValorPay</string>
+
+    <string name="name">Name</string>
+    <string name="mail">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="dob">Date of birth</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="register_u"><u>Register</u></string>
+
+
+    <string name="name_error">Enter a valid name</string>
+    <string name="email_error">Enter a valid email</string>
+    <string name="mobile_error">Enter a valid mobile</string>
+    <string name="password_error">Enter a valid password</string>
+    <string name="dob_error">Select Date of birth</string>
+    <string name="password_length_error">The password must contain at least 8 characters</string>
+
+    <string name="product_list">Product List</string>
+    <string name="cart">Cart</string>
+    <string name="profile">Profile</string>
+    <string name="payment">Payment</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Logout</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+
+    <string name="state_tax">State Tax</string>
+    <string name="custom_fee">Custom Fee</string>
+    <string name="save">Save</string>
+
+    <string name="tax_error">Enter valid state tax</string>
+    <string name="fee_error">Enter valid custom fee</string>
+
+    <string name="success">Success</string>
+    <string name="failure">Failed</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="checkout">Checkout</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="pay">Proceed To Pay</string>
+
+    <string name="item_total">Net Price</string>
+    <string name="to_pay">To Pay</string>
+    <string name="count">Count:</string>
+
+    <string name="choose_card">Please choose a card for payment</string>
+    <string name="update">Update</string>
+    <string name="logout_title">Logout</string>
+    <string name="logout_msg">Are you sure want to logout?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+</resources>

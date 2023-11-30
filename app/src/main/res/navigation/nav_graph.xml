@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/productFragment">
+
+    <fragment
+        android:id="@+id/productFragment"
+        android:name="com.example.valorpay.fragments.product.ProductFragment"
+        android:label="@string/product_list"
+        tools:layout="@layout/fragment_product"/>
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.example.valorpay.fragments.cart.CartFragment"
+        android:label="@string/cart"
+        tools:layout="@layout/fragment_cart" />
+    <fragment
+        android:id="@+id/paymentFragment"
+        android:name="com.example.valorpay.fragments.payment.PaymentFragment"
+        android:label="fragment_service"
+        tools:layout="@layout/fragment_payment"/>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.valorpay.fragments.profile.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile"/>
+
+</navigation>
